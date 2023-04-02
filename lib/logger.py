@@ -1,3 +1,4 @@
+#This is test logger
 class Log4j(object):
     def __init__(self, spark):
         log4j = spark._jvm.org.apache.log4j
